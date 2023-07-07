@@ -1,5 +1,9 @@
 # Threads - say more <img src="./app/img/logo.png" width=auto height="25">
 
+## Here's a quick preview of this project.
+### https://threads-webpage.vercel.app/
+
+
 Threads is a Next.js project aimed at creating a platform for engaging and meaningful discussions. It provides a user-friendly interface for users to create, read, update, and delete threads on various topics. This README file provides information about the project and guides you through the setup and usage.
 
 ## Table of Contents
@@ -32,7 +36,7 @@ https://github.com/sohaildotcss/threads-webpage.git
 2. Navigate to the project directory:
 
 ```
-cd threads
+cd threads-webpage
 ```
 
 3. Install the dependencies:
