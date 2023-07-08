@@ -24,7 +24,7 @@ export default function Home() {
           loop
           src="./assets/hero-vid.mp4"
           type="video/mp4"
-          className="absolute mt-16 md:mt-0"
+          className="absolute mt-24 md:mt-0"
         />
         <div className="section md:h-auto bg-black">
           <Image src={section_assets} className="h-80 md:h-1/2 opacity-10" />
