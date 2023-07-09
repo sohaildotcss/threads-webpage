@@ -1,4 +1,4 @@
-# Threads - say more <img src="./app/img/logo.png" width=auto height="25">
+# Threads - say more <img src="/public/assets/logo.png" width=auto height="25">
  Webpage is still under progress 🧵
 ## Here's a quick preview of this project.
 ### https://threads-webpage.vercel.app/
