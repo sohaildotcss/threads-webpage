@@ -1,5 +1,5 @@
 # Threads - say more <img src="./app/img/logo.png" width=auto height="25">
-
+ Webpage is still under progress 🧵
 ## Here's a quick preview of this project.
 ### https://threads-webpage.vercel.app/
 
@@ -18,7 +18,7 @@ Threads is a Next.js project aimed at creating a platform for engaging and meani
 
 ## **Getting Started**
 
-These instructions will help you set up the project on your local machine for development and testing purposes. See [Deployment](#deployment) section for notes on how to deploy the project on a live system.
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
 ### **Prerequisites**
 
