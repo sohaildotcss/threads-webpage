@@ -6,17 +6,21 @@ import section_assets from "/public/assets/hero.jpg";
 import logo from "/public/assets/logo.png";
 export default function Home() {
   useEffect(() => {
-    gsap.from(".page", {
-      x: 300,
-      y:500,
-      rotate: 40,
+    let tl = gsap.timeline();
+    tl.from(".page", {
       opacity: 0,
-      scale:10,
+      scale: 40,
     });
-    gsap.to(".page", {
-      x: 0,
-      y:0,
-      duration: 1,
+    tl.to(".page", {
+      duration: 0.1,
+      scale:1,
+    });
+    tl.from("nav p,nav h1,nav img", {
+      y: -100,
+      stagger:0.5,
+    });
+    tl.to("nav p,nav h1,nav img", {
+      duration: 0.1,
     });
   });
   return (
@@ -27,14 +31,14 @@ export default function Home() {
             ☰
           </p>
         </div>
-        <div className="nav-right flex ">
+        <div className="nav-right flex justify-around ">
           <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-br from-yellow-400 via-orange-500 to-purple-600 text-transparent bg-clip-text">
             Threads
           </h1>
           <Image
             src={logo}
             alt=""
-            className="h-8 md:h-10 w-auto ml-1 cursor-pointer hover:animate-spin"
+            className="h-8 absolute right-16 md:h-10 w-auto cursor-pointer hover:animate-spin"
           />
         </div>
       </nav>
