@@ -6,11 +6,16 @@ import section_assets from "/public/assets/hero.jpg";
 import logo from "/public/assets/logo.png";
 export default function Home() {
   useEffect(() => {
-    gsap.from("nav", {
-      y: -100,
-    })
-    gsap.to("nav", {
-      y: 0,
+    gsap.from(".page", {
+      x: 300,
+      y:500,
+      rotate: 40,
+      opacity: 0,
+      scale:10,
+    });
+    gsap.to(".page", {
+      x: 0,
+      y:0,
       duration: 1,
     });
   });
